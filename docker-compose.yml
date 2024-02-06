@@ -1,0 +1,7 @@
+version: "3"
+services:
+  test-w2m:
+    image: test-w2m
+    container_name: w2m
+    ports:
+      - "8099:8099"
